@@ -1,0 +1,15 @@
+{
+  "name": "ssl-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect --debug-brk index.js",
+    "clean": "rm -rf dist",
+    "start": "npm run clean && node index.js"
+  },
+  "keywords": [],
+  "author": "Andre Geng",
+  "license": "ISC"
+}

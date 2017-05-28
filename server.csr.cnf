@@ -1,0 +1,13 @@
+[req]
+input_password=123456
+distinguished_name=dn
+prompt=no
+
+[dn]
+C=CN
+ST=Test State or Province
+L=Test Locality
+O=Test Organization Name
+OU=Test Organizational Unit Name
+CN=Test Common Name
+emailAddress=test@email.address
